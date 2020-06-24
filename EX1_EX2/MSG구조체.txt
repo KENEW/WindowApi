@@ -1,0 +1,17 @@
+typedef struct tagMSG
+{
+    HWND        hwnd;
+    UINT        message;
+    WPARAM      wParam;
+    LPARAM      lParam;
+    DWORD       time;
+    POINT       pt;
+} MSG;
+
+
+hwnd		메시지를 받을 윈도우 핸들이다.
+message		어떤 종류의 메시지인가를 나타낸다. 가장 중요한 값이다.
+wParam		전달된 메시지에 대한 부가적인 정보를 가진다. 어떤 의미를 가지는가는 메시지별로 다르다. 32비트값이다.
+lParam		전달된 메시지에 대한 부가적인 정보를 가진다. 어떤 의미를 가지는가는 메시지별로 다르다. 32비트값이다.
+time		메시지가 발생한 시간이다.
+pt			메시지가 발생했을 때의 마우스 위치이다.

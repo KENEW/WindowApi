@@ -1,0 +1,19 @@
+접두어	원래말	의미
+
+cb		Count of Bytes			바이트 수
+dw		double word				부호없는 long형 정수
+h		handle					윈도우, 비트맵, 파일 등의 핸들
+sz		Null Terminated	NULL	종료 문자열
+w		Word					부호없는 정수형
+i		Integer					정수형
+b		Bool					논리형
+
+
+데이터형	의미
+
+BYTE	unsigned char형
+WORD	unsigned short형
+DWORD	unsigned long형
+LONG	long과 동일하다.
+LPSTR	char *와 동일하다.
+BOOL	정수형이며 TRUE, FALSE 중 한 값을 가진다.
